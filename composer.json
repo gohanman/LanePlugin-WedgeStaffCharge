@@ -1,0 +1,16 @@
+{
+    "name": "gohanman/lane-plugin-wedge-staff-charge",
+    "description": "Lane plugin containing some historical / legacy IS4C behaviors and functions",
+    "type": "corepos-lane-plugin",
+    "require": {
+        "corepos/composer-installer": ">=1.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    },
+    "license": "GPLv2",
+    "autoload": {
+        "exclude-from-classmap": ["/*.php", "/noauto/"]
+    },
+    "version": "1.0.0"
+}
